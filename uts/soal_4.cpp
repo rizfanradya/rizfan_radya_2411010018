@@ -9,8 +9,7 @@ Buatkan program menggunakan c++ untuk menentukan USIA seseorang berdasarkan tahu
 using namespace std;
 
 int main() {
-    int tahunLahir, tahunSekarang;
-    int usia;
+    int tahunLahir, tahunSekarang, usia;
 
     time_t t = time(0);
     tm* now = localtime(&t);
